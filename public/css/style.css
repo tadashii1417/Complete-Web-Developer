@@ -256,15 +256,19 @@ hr{
 /* ------- Body news Part  ----------------- */
 .body-news{
     padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid red;
 }
 
 .body-news-item{
     width: 37.5%;
     float: left;
+    height: 400px;
 }
 
 .body-news-item img{
     width: 100%;
+    height: 150px;
 }
 
 .first-part{
@@ -297,14 +301,99 @@ hr{
     color: #BB1919;
 }
 
-.body-news-right{
-    float: left;
+
+ /* second column body */
+.second-part{
+    padding: 0 15px;
 }
 
+.ion-chatbox-working{
+    color: #BB1919;
+}
 
+#num-comment{
+    font-size: 15px;
+}
+
+/* right part of the body */
+
+.body-news-right{
+    padding-left: 15px;
+    width: 25%;
+    float: right;
+    height: 400px;
+}
+
+.right-part{
+    padding-top: 5px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.right-part h3{
+    line-height: 25px;
+}
+
+.right-part-last{
+    border: none;
+}
 /* ------- Second Column ----------------- */
 
 .column-secondary{
     width: 32.25%;
     float: left;
+    padding-left: 20px;
+}
+
+.column-secondary h3{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.video-part{
+    padding-bottom: 30px;
+}
+.video-part .image{
+    width: 42%;
+    float: left;
+}
+
+.image{
+    position: relative;
+}
+.video-timer{
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+}
+
+.video-timer span{
+    background-color: white;
+    padding: 5px;
+}
+
+#timer{
+    color: white;
+    background-color: rgb(29, 29, 29, 0.8);
+    padding: 5px;
+    font-size: 14px;
+}
+
+.video-part .image img{
+    width: 86%;
+    margin-left: 7%;
+    height: 80px;
+}
+
+.video-part .description{
+    width: 58%;
+    float: left;
+    padding-left: 10px;
+}
+
+.video-part .description h4{
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 700;
 }
