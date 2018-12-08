@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: Helvetica, Arial, freesans, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ----------------------------------------------------------- */
+/* --------      RE-USEABLE COMPONENT       ------------------ */
+/* ----------------------------------------------------------- */
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.topbar{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 40px;
+    border-bottom: 1px #cccccc solid;
+}
+
+.clearfix{zoom: 1}
+.clearfix:after {
+        content: ".";
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+}
+
+
+/* ----------------------------------------------------------- */
+/* --------      HEADER       ------------------ */
+/* ----------------------------------------------------------- */
+
+#logo{
+    float: left;
+    margin-right: 8px; 
+    margin-top: 3px;
+}
+
+.topbar-section{
+    float: left;
+    border-left: 1px #cccccc solid;
+    height: 100%;
+    margin-right: 30px;
+}
+
+#signin{
+    width: 30px;
+    margin: 6px 15px;
+    float: left;
+}
+
+#signin-text{
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+
+.topbar-menu{
+    font-weight: bold;
+    font-size: 90%;
+    padding: 10px 15px;
+    margin-right: 2px;
+}
+
+.topbar-menu i{
+    position: relative;
+    margin-left: 25px;
+}
+
+.topbar-menu input{
+    width: 115px;
+    font-weight: bold;
+    background-color: #F1F1F1;
+    border-width: 0px;
+    padding: 5px;
+    position: relative;
+    top: -2px;
+    float: left;
+}
+
+#bell-div{
+    margin-right: 30px;
+}
+
+#bell-div i{
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+    left: 15px;
+}
+
+#search-icon{
+    margin-left: 0px;
+    background-color:#F1F1F1;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    top: -2px;
+    padding:1px 3px;
+}
+
+/* ----------------------------------------------------------- */
+/* ------------------      SECOND-BAR       ------------------ */
+/* ----------------------------------------------------------- */
+
+.second-bar{
+    width: 100%;
+    height: 100px;
+    background-color: #BB1919;
+}
+
+.second-bar .row img{
+    margin: 15px;
+}
+
+.right-head{
+    float:right;
+    font-size: 15px;
+    color: white;
+    margin: 10px 20px 20px 20px;
+    padding: 5px 10px 0px 10px;
+    border: 1px solid #bb454f;
+}
+
+.right-head i{
+    font-size: 25px;
+}
+
+.second-session{
+    position: relative;
+    top: 10px;
+}
+
+.second-menu{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    border-right: 1px solid #bb454f;
+    padding: 0px 12px;
+}
+
+.second{
+    float: left;
+}
+
+.second i{
+    color: white;
+    font-size: 11px;
+}
+
+.second:hover{
+    border-bottom: 3px #F1F1F1 solid;
+    padding-bottom: 3px;
+}
+
+#last-menu{
+    border: none;
+}
+
+/* ----------------------------------------------------------- */
+/* ------------------      TOPIC SESSION       ------------------ */
+/* ----------------------------------------------------------- */
+
+.technology{
+    margin: 15px auto;
+    padding-right: 20px;
+    border: 1px solid red;
+}
+.topic-heading{
+    border-bottom: 3px solid #BB1919;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 24px;
+    width:113px;
+    margin-top: 20px;
+}
+
+
+
+/* ------- First Column ----------------- */
+
+.column-primary{
+    width: 67.75%;
+    float: left;
+    padding-right: 15px;
+    margin-bottom: 50px;
+    border-right: 1px solid #DBDBDB;
+}
+
+.heading{
+    padding-bottom: 50px;
+}
+
+.first-sub{
+    width: 37.5%;
+    float: left;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 15px;
+}
+
+.first-sub hr{
+    border-top: 1px solid #BB1919;
+    margin: 10px 0;
+    width: 50px;
+}
+
+.first-sub a{
+    font-size: 16px;
+}
+
+.heading-time{
+    margin: 8px 0px;
+    font-size: 13px;
+}
+
+.heading-time i{
+    padding-right: 10px;
+    border-right: 1px solid #cccccc;
+}
+
+.heading-time span{
+    color: #BB1919;
+}
+
+.second-sub{
+    width: 62.5%;
+    float: left;
+}
+
+.second-sub img{
+    width: 100%;
+}
+
+#headline-title{
+    margin: 15px 0px 30px 0px;
+}
+
+#headline-title:hover{
+    color: #1167A8;
+}
+
+/* ------- Second Column ----------------- */
+
+.column-secondary{
+    width: 32.25%;
+    float: left;
+}
