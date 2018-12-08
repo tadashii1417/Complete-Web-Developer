@@ -176,18 +176,13 @@ a{
 /* ------------------      TOPIC SESSION       ------------------ */
 /* ----------------------------------------------------------- */
 
-.technology{
-    margin: 15px auto;
-    padding-right: 20px;
-    border: 1px solid red;
-}
 .topic-heading{
     border-bottom: 3px solid #BB1919;
     font-size: 20px;
     font-weight: 400px;
     line-height: 24px;
     width:113px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -204,7 +199,7 @@ a{
 
 .heading{
     padding-bottom: 20px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #DBDBDB;
 }
 
 .first-sub{
@@ -216,7 +211,7 @@ a{
     padding-right: 15px;
 }
 
-.first-sub hr{
+hr{
     border-top: 1px solid #BB1919;
     margin: 10px 0;
     width: 50px;
@@ -251,12 +246,61 @@ a{
 }
 
 #headline-title{
-    margin: 15px 0px 30px 0px;
+    margin: 10px 0px 20px 0px;
 }
 
 #headline-title:hover{
     color: #1167A8;
 }
+
+/* ------- Body news Part  ----------------- */
+.body-news{
+    padding-top: 15px;
+}
+
+.body-news-item{
+    width: 37.5%;
+    float: left;
+}
+
+.body-news-item img{
+    width: 100%;
+}
+
+.first-part{
+    border-right: 1px solid #DBDBDB;
+    padding-right: 15px;
+}
+
+.first-part h3{
+    margin: 7px 0;
+}
+
+.first-part p{
+    margin: 10px 0;
+    line-height: 20px;
+}
+
+#author img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+
+#author div{
+    float: left;
+    font-size: 14px;
+}
+
+#author div a{
+    color: #BB1919;
+}
+
+.body-news-right{
+    float: left;
+}
+
 
 /* ------- Second Column ----------------- */
 
