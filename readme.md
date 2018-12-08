@@ -1,0 +1,1 @@
+This is the clone version of BBC news website
